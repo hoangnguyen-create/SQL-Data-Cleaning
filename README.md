@@ -94,7 +94,8 @@ update club_member_info_rep_cleaned
 set phone = '999-999-999'
 where phone = ''
 ```
-### FINAL RESULT:
+### Final Result:
+
 Query to show: 
 ```sql
 select * from club_member_info_rep_cleaned limit 10;	
